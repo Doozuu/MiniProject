@@ -1,0 +1,44 @@
+body{
+    background-color: #00462A;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.login{
+    color: white;
+    font-size: 20px;
+}
+
+.main_copy{
+    font-size: 64px;
+    text-align: center;
+}
+
+.shopping_btn{
+    font-size: 20px;
+    width: 235px;
+    height: 65px;
+    display: block; 
+}
+
+.items > h2{
+    color: white;
+}
+
+.sub_copy{
+    color: white;
+}
+
+.sub_part>button{
+    border: none;
+    border-radius: 3px;
+    color: #00462A;
+    background-color: #F3C44A;
+}
