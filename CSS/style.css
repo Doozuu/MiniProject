@@ -1,44 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Inter&display=swap');
+
 body{
     background-color: #00462A;
     margin: 0;
 }
 
+#main_back{
+    width: 100vw;
+    height: 800px;
+    position: absolute;
+    z-index: -1;
+}
+
+/* 상단바 */
+#logo{
+    margin-top: 15px;
+}
+
+.menu_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
 li{
     list-style: none;
+    display: inline;
+    margin-left: 20px;
+    vertical-align: middle;
 }
 
 a{
     text-decoration: none;
+    margin-right: 20px;
 }
 
-.login{
-    color: white;
+.login>li{
+    color: #00462A;
     font-size: 20px;
 }
 
+/* main section*/
 .main_copy{
     font-size: 64px;
     text-align: center;
+    color: #00462A;
+    font-family: 'Chonburi', cursive;
+    line-height: 90px;
+    font-weight: 100;
 }
 
 .shopping_btn{
-    font-size: 20px;
-    width: 235px;
-    height: 65px;
+    font-size: 32px;
+    width: 220px;
+    height: 60px;
     display: block; 
+    background-color: #00462A;
+    color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+    border: none;
+    margin: auto;
 }
 
+#flower{
+    position: absolute;
+    z-index: 10;
+
+}
+
+#scroll{
+    display: block; 
+    margin: auto;
+    margin-top: 220px;
+}
+
+/* item section*/
 .items > h2{
     color: white;
+    margin-left: 50px;
+    font-size: 32px;
+    margin-top: 200px;
 }
 
-.sub_copy{
+.items > div{
+    width: 100vw;
+    height: 1px;
+    background-color: #D9D9D9;
+}
+
+.line1{
+    margin-bottom: 250px;
+}
+
+.line2{
+    margin-bottom: 250px;
+}
+
+.line1 > span{
+    width: 1px;
+    height: 10px;
+}
+
+/* 흘러가는 바*/
+.slide_bar{
+    color: #D9D9D9;
+    margin-top: 20px;
+}
+
+.animated-title { font-size: 20px; position:relative; width: 100%;max-width:100%; height: auto; padding-top:100px; overflow-x: hidden; overflow-y: hidden; }
+
+.animated-title .track {position: absolute; white-space: nowrap;will-change: transform; animation: marquee 50s linear infinite; }
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
+@media (hover: hover) and (min-width: 800px){
+.animated-title .slide_bar {-webkit-transform: translateY(calc(100% - 8rem)); transform: translateY(calc(100% - 8rem));}
+    }
+
+/* sub section*/    
+.sub_part{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.sub_part>h2{
     color: white;
+    font-size: 36px;
+    text-align: center;
 }
 
 .sub_part>button{
+    font-family: 'Inter', sans-serif, 300;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     color: #00462A;
     background-color: #F3C44A;
+    width: 210px;
+    height: 75px;
+    font-size: 28px;
+    display: block; 
+    margin: auto;
+}
+
+footer{
+    background-color: #D9D9D9;
+    height: 100px;
+    padding-top: 5px;
+}
+
+footer>a>h3{
+    color: #00462A;
+    margin-left: 50px;
+    font-size: 24px;
 }
