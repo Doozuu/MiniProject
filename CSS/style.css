@@ -89,14 +89,20 @@ a{
 
 #flower{
     position: absolute;
-    z-index: 10;
+    margin-left: -77px;
+    margin-top: -30px;
+}
 
+#sticker{
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 45px;
 }
 
 #scroll{
     display: block; 
     margin: auto;
-    margin-top: 220px;
+    margin-top: 250px;
 }
 
 /* item section*/
