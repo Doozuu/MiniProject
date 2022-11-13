@@ -1,4 +1,5 @@
+const pop = document.getElementById('popup');
+
 function handlePopup(){
-    const pop = document.getElementById('popup');
     pop.style.display = 'block';
 }
