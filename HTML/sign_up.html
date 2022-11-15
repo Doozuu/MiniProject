@@ -8,6 +8,38 @@
     <link rel="stylesheet" href="../CSS/sign_up.css">
 </head>
 <body>
+    
+    <div class="img">
+        <div class="content">
+            <!--nav-->
+            <nav class="menu_bar">
+                <a href="./index.html"><img src="../img/logo.png" alt="logo" id="logo"></a>
+            </nav>
+            <div class="signUpInput">
+                <div id="signUp">Sign Up</div>
+                <div id="form">
+                <div id="name">Id</div>
+                <input type="text" name="id" id="in">
+                <span id="ex">4~12자 영문 대소문자와 숫자</span>
+                <div id="name">Password</div>
+                <input type="text" name="pw" id="in">
+                <span id="ex">4~12자 영문 대소문자와 숫자</span>
+                <div id="name">Repeat password</div>
+                <input type="text" name="id" id="in"><br>
+                <div id="name">Email Address</div>
+                <input type="text" name="id" id="in"><br>
+                <input type="button" value="가입하기" id=signbutton onclick="pop()"><br>
+                </div>
+            </div>
+            <div id="pop" style="display:none;">
+                <img src="../img/pop_up.png">
+            </div>
+
+
+        </div>
+        <div class="img-cover"></div>
+    </div>
+
     <script src="../JS/sign_up.js"></script>
 </body>
 </html>
