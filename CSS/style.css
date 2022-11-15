@@ -121,9 +121,8 @@ hr{
     width: 220px;
     height: 60px;
     display: block; 
-    background-color: #00462A;
-    color: white;
-    font-family: 'Inter', sans-serif;
+    background-color: #F3C44A;
+    color: #00462A;
     border-radius: 10px;
     border: none;
     margin: auto;
@@ -132,8 +131,8 @@ hr{
 }
 
 .main>button:hover{
-    background-color: #F3C44A;
-    color: #00462A;
+    background-color: #00462A;
+    color: white;
 }
 
 #flower{
