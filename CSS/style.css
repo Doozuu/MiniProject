@@ -20,7 +20,7 @@ body{
 #school{
     z-index: -1;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .new_back{
@@ -104,7 +104,7 @@ hr{
 
 /* main section*/
 .main{
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .main_copy{
@@ -265,11 +265,11 @@ td>h2{
 
 .animated-title { font-size: 20px; position:relative; width: 100%;max-width:100%; height: auto; padding-top:100px; overflow-x: hidden; overflow-y: hidden; }
 
-.animated-title .track {position: absolute; white-space: nowrap;will-change: transform; animation: marquee 50s linear infinite; }
+.animated-title .track {position: absolute; white-space: nowrap;will-change: transform; animation: marquee 20s linear infinite; }
 
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-100%); }
+  from { transform: translateX(calc(-50% + 20vw)); }
+  to { transform: translateX(-50% + 20vw); }
 }
 @media (hover: hover) and (min-width: 800px){
 .animated-title .slide_bar {-webkit-transform: translateY(calc(100% - 8rem)); transform: translateY(calc(100% - 8rem));}
