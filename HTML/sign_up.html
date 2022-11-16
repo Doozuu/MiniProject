@@ -10,11 +10,13 @@
 <body>
     
     <div class="img">
-        <div class="content">
+        <div class="nav">
             <!--nav-->
             <nav class="menu_bar">
                 <a href="./index.html"><img src="../img/logo.png" alt="logo" id="logo"></a>
             </nav>
+        </div>
+        <div class="content">
             <div class="signUpInput">
                 <div id="signUp">Sign Up</div>
                 <div id="form">
@@ -31,13 +33,13 @@
                 <button type="submit"id="signbutton" onclick="popup()">가입하기</button><br>
                 </div>
             </div>
-            <div id="pop" style="display:none;">
-                <div id="popbar"><img src="../img/x_icon.png"></div>
-                <div id="cong"><span name="id">00</span> 님의 가입을 축하합니다!</div>
-                <div id="loginButton"><a href="./login.html" >로그인하기</a></div>
-            </div>
         </div>
         <div class="img-cover"></div>
+        <div id="pop" style="display: none;">
+            <div id="popbar"><img src="../img/x_icon.png" onclick="delete_box()"></div>
+            <div id="cong"><span name="id">00</span> 님의 가입을 축하합니다!</div>
+            <div id="loginButton"><a href="./login.html">로그인하기</a></div>
+        </div>
     </div>
 
     <script src="../JS/sign_up.js"></script>

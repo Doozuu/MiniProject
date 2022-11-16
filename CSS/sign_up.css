@@ -23,6 +23,11 @@
     z-index: 2;
 }
 
+.img .nav{
+    position: absolute;
+    z-index: 3;
+}
+
 #logo{
     margin-top: 15px;
 }
@@ -106,6 +111,7 @@
 }
 
 #pop{
+    z-index: 3;
     position: absolute;
     top: 290px;
     left: 575px;
