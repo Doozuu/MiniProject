@@ -25,14 +25,16 @@
                 <input type="password" name="pw" id="pw">
                 <span id="ex">4~12자 영문 대소문자와 숫자</span>
                 <div id="name">Repeat password</div>
-                <input type="password" name="id" id="re_pw"><br>
+                <input type="password" name="re_pw" id="re_pw"><br>
                 <div id="name">Email Address</div>
-                <input type="email" name="id" id="email"><br>
-                <button type="submit"id=signbutton onclick="popup()">가입하기</button><br>
+                <input type="email" name="email" id="email"><br>
+                <button type="submit"id="signbutton" onclick="popup()">가입하기</button><br>
                 </div>
             </div>
             <div id="pop" style="display:none;">
-                <img src="../img/pop_up.png">
+                <div id="popbar"><img src="../img/x_icon.png"></div>
+                <div id="cong"><span name="id">00</span> 님의 가입을 축하합니다!</div>
+                <div id="loginButton"><a href="./login.html" >로그인하기</a></div>
             </div>
         </div>
         <div class="img-cover"></div>
